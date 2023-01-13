@@ -1,0 +1,558 @@
+@font-face {
+    font-family: "josfin";
+    src: url(img/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: "josfin-thin";
+    src: url(img/JosefinSans-Thin.ttf);
+}
+@font-face {
+    font-family: "Philosopher";
+    src: url(img/Philosopher-Regular.ttf);
+}
+.my-nav{
+    padding: 15px;
+    background-color: #222222 !important;
+    border-bottom: 1px solid #ed1c24;
+}
+
+.my-logo{
+    padding:  0px 60px 0px 25px;
+}
+.li-clr li a{
+    color: #fff;
+    font-weight: bold;
+    font-family: "Philosopher";
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.li-clr li a:hover{
+    color: #ed1c24;
+}
+.rd-clr a{
+    color: #ed1c24 !important;
+}
+.my-btn{
+    font-family: "Philosopher", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  
+    color: #FFFFFF;
+    background-color: #ed1c24;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #ED1C24;
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px 50px 8px 50px;
+}
+.slider{
+    height: 400px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ed1c24;
+}
+.imgs{
+   background-image:url(img/Untitleddesign\(36\).png);
+   display: flex;
+
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   color: white;
+   border-bottom: 1px solid #ed1c24;
+   background-position: top center;
+   background-attachment: fixed;
+}
+.imgs h1{
+    color: #FFFFFF;
+    font-family: "Josfin-thin", Sans-serif;
+    font-size:95px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.imgs img{
+    width: 350px;
+    
+}
+.imgs p{
+    color: #FFFFFF;
+    font-family: "Josfin-thin", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 55px;
+}
+
+.imgs h3{
+    color: #FFFFFF;
+    font-family: "Philosopher", Sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+.imgs span{
+    font-size: medium;
+    color: #c0c0c0;
+}
+
+.flx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flx-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: #ffffffe0;
+width: 320px;
+height: 200px;
+margin: 7px;
+border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+}
+.flx-box img{
+width: 270px;
+}
+
+
+.box-2{
+    display: flex;
+    background-color: #222222;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    border-bottom: 1px solid #ed1c24;
+    background-position: top center;
+    background-attachment: fixed;
+ }
+ .img-1-1{
+    width: 300px !important;
+    padding-bottom: 20px;
+ }
+
+ 
+
+.box-2 h3{
+    color: #ed1c24;
+    font-family: "Philosopher", Sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+.box-2 span{
+    font-size: medium;
+    color: #c0c0c0;
+    text-align: center;
+}
+.box-2 img{
+    width: 420px;
+    
+}
+.flx-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+
+
+
+.express-address-new{
+    text-align: center;
+    background-image: url(img/branch3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 05px 60px 05px;
+    background-color: #222222;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+
+}
+.express-address-new i{
+    font-size: x-large;
+color: #ed1c24;
+padding-bottom: 20px;
+
+}
+
+.express-address-new p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+}
+.express-address-new span{
+    font-family: "Josfin";
+ line-height: 10px;
+}
+.express-address-1-new{
+    text-align: center;
+    background-image: url(img/branch2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 05px 60px 05px;
+    background-color: #222222;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+}
+.express-address-1-new i{
+    font-size: x-large;
+color: #ed1c24;
+padding-bottom: 20px;
+
+
+}
+
+.express-address-1-new p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+}
+.express-address-1-new span{
+    font-family: "Josfin";
+ line-height: 10px;
+}
+.express-address-2-new{
+    text-align: center;
+    background-image: url(img/branch1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 05px 60px 05px;
+    background-color: #222222;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+}
+.express-address-2-new i{
+    font-size: x-large;
+color: #ed1c24;
+padding-bottom: 20px;
+
+}
+
+.express-address-2-new p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+}
+.express-address-2-new span{
+    font-family: "Josfin";
+ line-height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.express-address{
+    text-align: center;
+    background-image: url(img/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 05px 60px 05px;
+    background-color: #222222;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+}
+.express-address i{
+    font-size: x-large;
+color: #ed1c24;
+padding-bottom: 20px;
+
+}
+
+.express-address p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+}
+.express-address span{
+    font-family: "Josfin";
+ line-height: 10px;
+}
+.express-address-1{
+    text-align: center;
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 05px 60px 05px;
+    background-color: #222222;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+}
+.express-address-1 i{
+    font-size: x-large;
+color: #ed1c24;
+padding-bottom: 20px;
+
+}
+
+.express-address-1 p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+}
+.express-address-1 span{
+    font-family: "Josfin";
+ line-height: 10px;
+}
+.express-address-2{
+    text-align: center;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 05px 60px 05px;
+    background-color: #222222;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+}
+.express-address-2 i{
+    font-size: x-large;
+color: #ed1c24;
+padding-bottom: 20px;
+
+}
+
+.express-address-2 p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+}
+.express-address-2 span{
+    font-family: "Josfin";
+ line-height: 10px;
+}
+.line{
+    width: 180px;
+    height: 2px;
+    background-color: #ffffff;
+}
+.saltnpapper-village{
+    background-color: #222222;
+padding-top: 40px;
+
+
+}
+.saltnpapper-village h3{
+    color: #ed1c24;
+    font-family: "Philosopher", Sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+
+
+
+
+.saltnpapper-last{
+    background-color: #222222;
+padding-top: 40px;
+
+
+}
+
+.saltnpapper-last h3{
+    color: #ed1c24;
+    font-family: "Philosopher", Sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+   
+}
+.saltnpapper-last p{
+    font: inherit;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+
+
+
+
+
+.express-address-imp{
+    width: 100%;
+    text-align: center;
+    background-image: url(img/Untitled\ design\ \(1-1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 05px 60px 05px;
+    background-color: #222222;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+
+.express-address-imp i{
+    font-size: x-large;
+color: #ed1c24;
+padding-bottom: 20px;
+}
+
+.express-address-imp p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+color: white;
+}
+.express-address-imp span{
+    font-family: "Josfin";
+ line-height: 10px;
+ color: white;
+}
+
+
+
+.express-address-imp .line{
+    width: 180px;
+    height: 2px;
+    background-color: #ffffff;
+    
+}
+
+
+
+
+@media screen and (max-width:1252px) {
+    .slider{
+        height: 100%;}
+        
+}
+@media screen and (max-width:600px) {
+    .imgs h1{
+        font-size: 30px;
+    }
+    .imgs img{
+        width: 200px;
+    }
+    .imgs p{
+        font-size: 8px;
+    }
+    
+    .imgs h3{
+ 
+        font-size: 20px;
+    }
+    .imgs span{
+        font-size: xx-small;
+    }
+
+
+    .box-2 h1{
+        font-size: 30px;
+    }
+    .box-2 img{
+        width: 200px;
+    }
+    .box-2 p{
+        font-size: 8px;
+    }
+    
+    .box-2 h3{
+ 
+        font-size: 20px;
+    }
+    .box-2 span{
+        font-size: xx-small;
+    }
+
+    .express-address-new{
+        width: 100%;
+    }
+    .express-address-1-new{
+        width: 100%;
+    }
+    .express-address-2-new{
+        width: 100%;
+    }
+    .express-address-new p{
+        font-size: large !important;
+        }
+        .express-address-new span{
+            font-size: large !important;
+            }
+
+
+            .express-address-1-new p{
+                font-size: large !important;
+                }
+                .express-address-1-new span{
+                    font-size: large !important;
+                    }
+
+
+    .express-address-2-new p{
+        font-size: large !important;
+        }
+        .express-address-2-new span{
+            font-size: large !important;
+            }
+
+
+    
+    .express-address{
+        width: 100%;
+    }
+    .express-address-1{
+        width: 100%;
+    }
+    .express-address-2{
+        width: 100%;
+    }
+
+
+
+    .express-address p{
+        font-size: large !important;
+        }
+        .express-address span{
+            font-size: large !important;
+            }
+
+
+            .express-address-1 p{
+                font-size: large !important;
+                }
+                .express-address-1 span{
+                    font-size: large !important;
+                    }
+
+
+    .express-address-2 p{
+        font-size: large !important;
+        }
+        .express-address-2 span{
+            font-size: large !important;
+            }
+}

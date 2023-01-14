@@ -356,6 +356,7 @@ font-size: larger;
 .saltnpapper-village{
     background-color: #222222;
 padding-top: 40px;
+padding: 10px;
 
 
 }
@@ -441,9 +442,65 @@ color: white;
     
 }
 
+.ssg {
+    border-bottom: 3px solid #ed1c24;
+
+}
+
+.two-flx{
+    display: flex;
+    justify-content: center;
+    background-color:#222222;
+    padding-bottom: 20px;
+   
+
+}
 
 
+.express-address-flx{
+    text-align: center;
 
+    padding: 50px 05px 50px 05px;
+    background-color: #ffffff;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    width: 600px;
+    border: 1px solid #ed1c24;
+    flex-wrap: wrap;
+
+}
+.express-address-flx i{
+    font-size:50px;
+color: #ed1c24;
+padding-bottom: 20px;
+
+}
+
+.express-address-flx p{
+font-family: "Josfin";
+font-weight: bold;
+font-size: larger;
+color: #222222;
+}
+.express-address-flx span{
+    font-family: "Josfin";
+ line-height: 10px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+}
+.wdh{
+    width: 25%;
+    color: white;
+    padding: 20px;
+}
+
+.wdh ul {
+list-style-type: none;
+}
 @media screen and (max-width:1252px) {
     .slider{
         height: 100%;}
@@ -496,6 +553,16 @@ color: white;
     .express-address-2-new{
         width: 100%;
     }
+    .express-address-flx{
+        width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+    }
+    .two-flx{
+        display: block;
+        margin: 10px;
+    }
+
     .express-address-new p{
         font-size: large !important;
         }
@@ -555,4 +622,9 @@ color: white;
         .express-address-2 span{
             font-size: large !important;
             }
+            footer{
+                display: block;
+            }
+            .wdh{
+                width: 100%;}
 }

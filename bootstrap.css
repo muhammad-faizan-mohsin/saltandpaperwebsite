@@ -4540,6 +4540,7 @@ fieldset:disabled .btn {
     border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition)
+    
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -4562,6 +4563,7 @@ fieldset:disabled .btn {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
+    color: white !important;
     vertical-align: middle;
     background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
